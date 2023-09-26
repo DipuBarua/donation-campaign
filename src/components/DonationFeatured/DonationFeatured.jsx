@@ -11,8 +11,7 @@ const DonationFeatured = () => {
 
     return (
         <div>
-            <h1 className=" text-3xl">donations: {donations.length}</h1>
-            <div className=" grid md:grid-cols-4 gap-10">
+            <div className=" grid md:grid-cols-4 gap-10 mt-8">
                 {
                     donations.map(donation => <DonationCard key={donation.id} donation={donation}></DonationCard>)
                 }

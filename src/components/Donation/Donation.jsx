@@ -6,6 +6,14 @@ import Donated from "../Donated/Donated";
 const Donation = () => {
     const donations = useLoaderData();
     const [donateApplications, setDonateApplications] = useState([]);
+    // handle see all button 
+    const [seeDonate, setSeeDonate] = useState(4);
+    const handleSeeAll = () => {
+        setSeeDonate(donations.length)
+    }
+
+    // console.log(donations);
+    // console.log(donateApplications);
 
     useEffect(() => {
         const storedDonateIds = getStoredDonation();
@@ -19,13 +27,19 @@ const Donation = () => {
             }
             setDonateApplications(donateIds);
         }
-    }, [])
+    }, []);
 
     return (
-        <div className=" grid md:grid-cols-2 gap-14 mt-10">
-            {
-                donateApplications.map(donate => <Donated key={donate.id} donate={donate}></Donated>)
-            }
+        <div>
+            <div className=" grid md:grid-cols-2 gap-14 mt-10">
+                {
+                    donateApplications.slice(0, seeDonate).map(donate => <Donated key={donate.id} donate={donate}></Donated>)
+                }
+            </div>
+            <div className={`text-center my-10 ${seeDonate > 4 ? "hidden" : ""}`}>
+                <button onClick={handleSeeAll} className=" btn btn-accent">See All</button>
+            </div>
+
         </div>
     )
 };
