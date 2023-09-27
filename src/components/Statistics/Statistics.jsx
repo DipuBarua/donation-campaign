@@ -9,7 +9,7 @@ const Statistics = () => {
 
     // part1 
     const data = [
-        { name: "Total Donation", value: totalDonation.length },
+        { name: "Total Donation", value: (totalDonation.length - givenDonation.length) },
         { name: "Total Donate", value: givenDonation.length },
     ];
 
@@ -30,7 +30,7 @@ const Statistics = () => {
     };
     // part4 
     return (
-        <div>
+        <div className=" md:ml-96">
             <PieChart width={400} height={400}>
                 <Pie
                     data={data}
@@ -48,13 +48,15 @@ const Statistics = () => {
                 </Pie>
             </PieChart>
 
-            <div className=" flex gap-8">
-                <p>Total Donation</p>
-                <div className=" bg-[#0088FE] rounded-xl w-32"></div>
-            </div>
-            <div className=" flex gap-8 mt-4">
-                <p>I Donated</p>
-                <div className=" bg-[#00C49F] rounded-xl w-32"></div>
+            <div className=" md:flex items-center gap-24 mx-5">
+                <div className=" flex gap-4">
+                    <p>Total Donation</p>
+                    <hr className=" p-1 mt-2 bg-[#0088FE] rounded-xl w-32" />
+                </div>
+                <div className=" flex gap-4">
+                    <p>I Donated</p>
+                    <hr className=" p-1 mt-2 bg-[#00C49F] rounded-xl w-32" />
+                </div>
             </div>
 
         </div>
