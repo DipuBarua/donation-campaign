@@ -10,20 +10,31 @@ const DonationDetails = () => {
     const donation = donations.find(donation => intId === donation.id);
     // console.log(donation);
 
+    // btn bg style form json data 
+    const { category, button_text_color } = donation;
+    const colorText = (category === "Health") ? button_text_color.healthText :
+        ((category === "Education") ? button_text_color.educationText :
+            ((category === "Clothing") ? button_text_color.clothingText :
+                ((category === "Food") ? button_text_color.foodText : '')));
+
+
+    // handle toasst 
     const handleDonateApplication = () => {
         saveDonateApplication(intId);
         toast("Successfully Donated!");
     }
 
     return (
-        <div className=" my-12 ">
+        <div className=" mt-12">
             <ToastContainer></ToastContainer>
             <img className="w-full" src={donation.picture} alt="" />
-            <div className="p-8 w-full relative bottom-28 opacity-60 bg-black">
-                <button onClick={handleDonateApplication} className={`btn ${donation.button_text_color}`}>Donate {donation.price}</button>
+            <div className="p-12 w-full relative bottom-24 opacity-60 bg-black">
             </div>
-            <h1 className=" mb-4 text-4xl font-bold">{donation.title}</h1>
-            <p>{donation.description}</p>
+            <button onClick={handleDonateApplication} className="btn relative bottom-40 text-white border-none ml-5 mb-2" style={{ backgroundColor: colorText }}>Donate {donation.price}</button>
+            <div className=" relative bottom-24">
+                <h1 className=" mb-6 text-4xl font-bold">{donation.title}</h1>
+                <p>{donation.description}</p>
+            </div>
         </div>
     );
 };

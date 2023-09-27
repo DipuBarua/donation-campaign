@@ -15,7 +15,7 @@ const Header = () => {
                 {/* <img src={'/public/Resources/Logo.png'} alt="" /> */}
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1 gap-2">
+                <ul className="menu menu-horizontal px-1 ml-5 gap-2">
                     {links}
                 </ul>
             </div>

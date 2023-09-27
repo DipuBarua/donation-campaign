@@ -6,8 +6,8 @@ import Donated from "../Donated/Donated";
 const Donation = () => {
     const donations = useLoaderData();
     const [donateApplications, setDonateApplications] = useState([]);
-    // handle see all button 
     const [seeDonate, setSeeDonate] = useState(4);
+    // handle see all button 
     const handleSeeAll = () => {
         setSeeDonate(donations.length)
     }

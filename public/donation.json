@@ -6,10 +6,10 @@
         "categoryId": 11,
         "category": "Health",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -28,15 +28,15 @@
     },
     {
         "id": 2,
-        "picture": "https://i.ibb.co/cDD6g9c/Health.png",
-        "title": "Clean water for children",
-        "categoryId": 11,
-        "category": "Health",
+        "picture": "https://i.ibb.co/kGtbk32/Education.png",
+        "title": "Good education",
+        "categoryId": 22,
+        "category": "Education",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -55,15 +55,15 @@
     },
     {
         "id": 3,
-        "picture": "https://i.ibb.co/cDD6g9c/Health.png",
-        "title": "Clean water for children",
-        "categoryId": 11,
-        "category": "Health",
+        "picture": "https://i.ibb.co/YWkqFd5/Clothing.png",
+        "title": "Used Clothing Drive",
+        "categoryId": 33,
+        "category": "Clothing",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -82,15 +82,15 @@
     },
     {
         "id": 4,
-        "picture": "https://i.ibb.co/kGtbk32/Education.png",
-        "title": "Good education",
-        "categoryId": 22,
-        "category": "Education",
+        "picture": "https://i.ibb.co/pfKnCZZ/Food.png",
+        "title": "Better Food for Everyone",
+        "categoryId": 44,
+        "category": "Food",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -114,10 +114,10 @@
         "categoryId": 22,
         "category": "Education",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -136,15 +136,15 @@
     },
     {
         "id": 6,
-        "picture": "https://i.ibb.co/kGtbk32/Education.png",
-        "title": "Good education",
-        "categoryId": 22,
-        "category": "Education",
+        "picture": "https://i.ibb.co/pfKnCZZ/Food.png",
+        "title": "Better Food for Everyone",
+        "categoryId": 44,
+        "category": "Food",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -168,10 +168,10 @@
         "categoryId": 33,
         "category": "Clothing",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -190,15 +190,15 @@
     },
     {
         "id": 8,
-        "picture": "https://i.ibb.co/YWkqFd5/Clothing.png",
-        "title": "Used Clothing Drive",
-        "categoryId": 33,
-        "category": "Clothing",
+        "picture": "https://i.ibb.co/cDD6g9c/Health.png",
+        "title": "Clean water for children",
+        "categoryId": 11,
+        "category": "Health",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -222,10 +222,10 @@
         "categoryId": 33,
         "category": "Clothing",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -244,15 +244,15 @@
     },
     {
         "id": 10,
-        "picture": "https://i.ibb.co/pfKnCZZ/Food.png",
-        "title": "Better Food for Everyone",
-        "categoryId": 44,
-        "category": "Food",
+        "picture": "https://i.ibb.co/cDD6g9c/Health.png",
+        "title": "Clean water for children",
+        "categoryId": 11,
+        "category": "Health",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -271,15 +271,15 @@
     },
     {
         "id": 11,
-        "picture": "https://i.ibb.co/pfKnCZZ/Food.png",
-        "title": "Better Food for Everyone",
-        "categoryId": 44,
-        "category": "Food",
+        "picture": "https://i.ibb.co/kGtbk32/Education.png",
+        "title": "Good education",
+        "categoryId": 22,
+        "category": "Education",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
@@ -303,10 +303,10 @@
         "categoryId": 44,
         "category": "Food",
         "category_bg": {
-            "health": "#0052FF",
-            "education": "#FF444A",
-            "clothing": "#79C23F",
-            "food": "#F87147"
+            "health": "#0052FF33",
+            "education": "#FF444A33",
+            "clothing": "#79C23F33",
+            "food": "#F8714733"
         },
         "card_bg": {
             "healthCard": "#0052FF26",
